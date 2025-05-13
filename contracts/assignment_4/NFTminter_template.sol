@@ -103,7 +103,7 @@ contract NFTminter_template is ERC721URIStorage, BaseAssignment, INFTminter {
             "{",
             '"name": "My beautiful artwork #',
             tokenId.toString(),
-            '"',
+            '",', 
             '"hash": "',
             ipfs_hash,
             '",',
